@@ -10,9 +10,10 @@ local Devs = { -- // user ids
 	[2027410509] = true,
 	[3430996158] = true,
 	[763223476] = true
+	[488969361] = true
 }
 game.Players.PlayerAdded:Connect(function(Player)
     if Devs[Player.UserId] then
-        game.Players.LocalPlayer:Kick("Dev joined, player kicked")
+        game.Players.LocalPlayer:Kick("Dev joined!")
     end
 end)
