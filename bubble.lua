@@ -1,4 +1,4 @@
-wait(1)
+wait(0.5)
 local value = game:GetService("Players").LocalPlayer.UserId
 local args = {
     [1] = "BlowBubble"
